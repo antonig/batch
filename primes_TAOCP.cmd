@@ -1,7 +1,7 @@
 :: prime generator using a sorted multiples list stored in a priority queue
 :: uses the environment as the priority queue, limited to maxprime 100000
 :: from a problem in Knuth's TAOCP
-
+:: Be warned it will crash when the environment size reaches 64K!!
 
 @echo off
 setlocal enabledelayedexpansion 
