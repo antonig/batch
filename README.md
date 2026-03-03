@@ -1,29 +1,36 @@
 # Exploring Windows batch scripts
 
-changeIP.cmd
+## changeIP.cmd
+
 Changes the IP of the ethernet card from command line. Must be run as an admin.
 
-clipboard.cmd
+## clipboard.cmd
+
 Hybrid batch (using mshta and javascript) that saves and retrieves text from clipboard
 
-Count_word_lines.bat
+## Count_word_lines.bat
+
 Counts words and lines from a plain text file
 
-Draw_ball.bat
+## Draw_ball.bat
+
 Draws an ASCII art ball in the console. Uses an integer square root by Aacini
 
-Julian.bat
+## Julian.bat
+
 Calculates a date 100 days from another by converting from and to julian days.
 
-make_m3u.cmd
-ensures there is a m3u playlist for each subfolder in music folder.
+## make_m3u.cmd
+ensures there is a m3u playlist for each subfolder in the music folder you put the script in.
 
-primes_TAOCP.cmd
-Generates primes by keeping a priority list of multiples of previous primes in the environment. Not a regular sieve or a bruteforce algorithm.   
+## primes_TAOCP.cmd
 
-win_filesel.bat
+Generates primes by keeping a priority list of multiples of previous primes in the environment. Not a regular sieve or a bruteforce algorithm. Uses environment as a hash table, crashes when environment is full.   
+
+## win_filesel.bat
+
 Opening a windows file selector form to select a file using mshta. Seems to work everywhere if mshta is not banned. Can't pass windows title or filters to the window.
 
-string_fuctions.bat
-Some handy string manipulation
-Length, align left,align right, center
+## string_fuctions.bat
+
+Some handy string manipulation: Length, align left,align right, center
